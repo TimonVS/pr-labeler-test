@@ -7,6 +7,6 @@ jobs:
   pr-labeler:
     runs-on: ubuntu-latest
     steps:
-      - uses: TimonVS/pr-labeler-action@master
+      - uses: amacado/pr-labeler-action@feature/load-config-of-pull-request
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
