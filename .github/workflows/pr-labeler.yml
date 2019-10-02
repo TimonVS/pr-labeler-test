@@ -7,6 +7,6 @@ jobs:
   pr-labeler:
     runs-on: ubuntu-latest
     steps:
-      - uses: TimonVS/pr-labeler-action@master
+      - uses: TimonVS/pr-labeler-action@chore/10
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
